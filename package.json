@@ -1,0 +1,24 @@
+{
+    "name": "yaitheme",
+    "displayName": "YairTheme",
+    "publisher": "Yair",
+    "description": "A free use theme for VSCode | new version of Github Dark",
+    "version": "0.0.4",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+
+    ],
+    "icon": "image/Microsoft.VisualStudio.Services.Icons.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cyan-dark-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Cyan-dark-theme-color-theme.json"
+            }
+        ]
+    }
+}
